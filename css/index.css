@@ -50,9 +50,10 @@ nav ul{
 
 nav li{
     height: 100%;
-    line-height: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 nav li:nth-child(2){
