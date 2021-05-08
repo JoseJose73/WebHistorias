@@ -2,6 +2,13 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.main{
+    width: 100%;
 }
 
 header{
@@ -66,5 +73,11 @@ nav li a{
 }
 nav li:hover{
     background: rgba(128, 128, 128, 0.26);
+}
+
+footer{
+    align-self: flex-end;
+    background: rgb(151, 151, 151);
+    width: 100%;
 }
 
