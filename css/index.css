@@ -46,33 +46,50 @@ nav{
     height: 40px;
 }
 
-nav ul{
+.lista {
     list-style: none;
     display: flex;
     justify-content: center;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 nav li{
-    height: 100%;
     padding-left: 1em;
     padding-right: 1em;
-    display: flex;
-    align-items: center;
+    line-height: 40px;
     cursor: pointer;
-}
-nav li:nth-child(2){
-    border-left: 2px solid white;
-    border-right: 2px solid white;
 }
 nav li a{
     text-decoration: none;
     color: white;
 }
 nav li:hover{
-    background: rgba(128, 128, 128, 0.26);
+    background: rgba(128, 128, 128, 0.37);
+}
+
+.autor{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    position: relative;
+}
+.autor ul{
+    background: grey;
+    list-style: none;
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin: 0%;
+    padding: 0%;
+}
+.autor:hover ul{
+    display: block;
+    
+}
+.autor ul li:hover{
+    background: #666;
+    
 }
 
 footer{
